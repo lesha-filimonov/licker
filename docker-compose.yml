@@ -1,0 +1,17 @@
+services:
+  app:
+    cap_add:
+      - SYS_ADMIN
+    build:
+      context: .
+    env_file: .env
+    volumes:
+      - type: bind
+        source: ./data
+        target: /data
+    secrets:
+      - telegram_bot
+
+secrets:
+  telegram_bot:
+    file: ./.secret

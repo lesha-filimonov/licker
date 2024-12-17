@@ -1,0 +1,29 @@
+{
+  "name": "licker",
+  "version": "1.0.0",
+  "description": "This is a tutorial application that will show some of essentials of development and other things.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lesha-filimonov/licker.git"
+  },
+  "author": "Lesha Filimonov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lesha-filimonov/licker/issues"
+  },
+  "homepage": "https://github.com/lesha-filimonov/licker#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "htmlparser2": "^9.1.0",
+    "node-cron": "^3.0.3",
+    "puppeteer": "^23.6.1",
+    "sqlite3": "^5.1.7",
+    "telegraf": "^4.16.3"
+  }
+}
